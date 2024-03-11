@@ -28,18 +28,19 @@ h1, p {
 
 .links a {
     display: block;
-    margin: 10px 0; /* Ajustez selon votre préférence */
+    margin: 10px auto; /* Centrage horizontal */
     padding: 12px 25px;
-    background-color: #007bff;
-    color: white;
+    background-color: #333; /* Gris foncé pour le fond */
+    color: #fff; /* Texte en blanc pour le contraste */
     text-decoration: none;
     border-radius: 20px; /* Bordures arrondies pour un look moderne */
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    transition: all 0.3s ease; /* Transition douce pour le survol */
+    transition: all 0.3s ease; /* Transition douce pour l'interaction */
+    text-align: center; /* Assure que le texte est centré */
 }
 
 .links a:hover {
-    background-color: #0056b3;
+    background-color: #555; /* Un peu plus clair au survol */
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transform: translateY(-3px); /* Effet de soulèvement */
+    transform: translateY(-3px); /* Léger effet de soulèvement */
 }
