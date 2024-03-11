@@ -2,25 +2,35 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    text-align: center;
+    background: #eaeaea; /* Fond subtil pour l'effet de profondeur */
 }
 
 .container {
     max-width: 600px;
-    margin: auto;
+    margin: 40px auto;
     padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre douce pour le conteneur */
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
 }
 
 .links a {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    color: #333;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px #ccc; /* Ombre pour effet en relief */
+    border: thin solid #ccc; /* Bordure subtile pour plus de réalisme */
+    transition: transform 0.2s ease; /* Animation douce */
 }
 
 .links a:hover {
-    background-color: #0056b3;
+    transform: translateY(-2px); /* Effet de léger soulèvement au survol */
 }
